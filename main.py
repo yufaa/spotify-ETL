@@ -10,8 +10,8 @@ import sqlite3
 
 
 DATABASE_LOCATION = "sqlite://my_played_tracks.sqlite"
-USER_ID = ""
-TOKEN = ""
+USER_ID = "whoami"
+TOKEN = "BQCZ5cCy0hwTNDzswIK1pyV7G5L10KGoTAkimEYO-WpH8nJTYO_3nOPKzGJjJSCsGDXJS58puP_FSXk5gFlALcO1XY1tLtmBJufFn6eIIQIfBVuDmnY"
 
 
 if __name__ == "__main__":
@@ -20,6 +20,7 @@ if __name__ == "__main__":
         "Accept" : "application/json",
         "Content-Type" : "application/json",
         "Authorization" : "Bearer {token}".format(token=TOKEN)
+    
     }
 
     today = datetime.datetime.now()
