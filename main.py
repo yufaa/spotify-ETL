@@ -1,6 +1,6 @@
 import pandas as pd
 import sqlalchemy
-from sqlalchemy.orm import sessionmaker
+from sqlalchemy.orm import sessionmakers
 import requests
 import json
 from datetime import datetime
@@ -11,7 +11,7 @@ import sqlite3
 
 DATABASE_LOCATION = "sqlite://my_played_tracks.sqlite"
 USER_ID = "whoami"
-TOKEN = "BQCZ5cCy0hwTNDzswIK1pyV7G5L10KGoTAkimEYO-WpH8nJTYO_3nOPKzGJjJSCsGDXJS58puP_FSXk5gFlALcO1XY1tLtmBJufFn6eIIQIfBVuDmnY"
+TOKEN = ".."
 
 
 if __name__ == "__main__":
