@@ -40,6 +40,10 @@ def getToken():
     # ambil token untuk akses API
     return token
 
+
 ## panggil fungsi getToken() dibawah ini
-token = getToken()
-print('access token : '+token)
+if __name__ == "__name__":
+    token = getToken()
+    print('access token : '+token)
+
+
