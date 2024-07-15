@@ -63,3 +63,4 @@ playlistId = st.text_input("Enter Playlist ID")
 if st.button('Create Dataset!'):
     token = getToken()
     getPlaylistItems(token, playlistId)
+    dataProcessing()
