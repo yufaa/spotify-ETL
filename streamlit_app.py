@@ -113,7 +113,7 @@ def getPlaylistItems(token, playlistId):
     for i in range(len(dataset)):
         dataset3.append(dataset[i]+dataset2[i])
 
-    print(dataset3)
+    # print(dataset3)
     
     with open('dataset.csv', 'w', newline='') as file:
         writer = csv.writer(file)
