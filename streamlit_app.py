@@ -1,5 +1,5 @@
 import pandas as pd
-import streamlit_app as st
+import streamlit as st
 from sklearn import preprocessing
 from sklearn.cluster import KMeans
 from sklearn.decomposition import PCA
