@@ -1,13 +1,8 @@
 import pandas as pd
-import sqlalchemy
-from sqlalchemy.orm import sessionmaker
 from requests import post, get
 import json
-from datetime import datetime
-import datetime
 import csv
 
-import sqlite3
 from get_token import getToken
 
 # Extract Data  
